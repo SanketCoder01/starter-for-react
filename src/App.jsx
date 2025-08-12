@@ -2,8 +2,8 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import "./App.css";
 import { client } from "./lib/appwrite";
 import { AppwriteException } from "appwrite";
-import AppwriteSvg from "../public/appwrite.svg";
-import ReactSvg from "../public/react.svg";
+import AppwriteSvg from "/appwrite.svg?url";
+import ReactSvg from "/react.svg?url";
 
 function App() {
   const [detailHeight, setDetailHeight] = useState(55);
